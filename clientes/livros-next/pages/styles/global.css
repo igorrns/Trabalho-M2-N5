@@ -1,0 +1,59 @@
+/* Reset some basic elements */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set a default color for links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Style the main content area */
+main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Add some padding to all pages */
+.container {
+    padding: 50px;
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+    color: darkblue;
+}
+
+/* Style buttons */
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Customize the navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/* Custom styles for the menu */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
